@@ -24,7 +24,7 @@ public class S3Util {
     public static String uploadFile(String fileName, InputStream inputStream)
             throws S3Exception, AwsServiceException, SdkClientException, IOException {
 
-        AwsBasicCredentials credentials = AwsBasicCredentials.create("AKIATCKAN77DMH2OS2UE","AP2thlVd1Ok6Hso/pK6YvVGT01htXzm8PGzEcY3F");
+        AwsBasicCredentials credentials = AwsBasicCredentials.create("accessKeyId","secretAccessKey");
 
         S3Client client = S3Client.builder()
                 .region(Region.AP_NORTHEAST_1)
