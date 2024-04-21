@@ -35,3 +35,9 @@ https://devvkkid.tistory.com/224
 
 <img width="500" alt="스크린샷 2024-04-21 오후 4 21 56" src="https://github.com/heunseoRyu/s3_crud/assets/120763372/8311fe2d-5763-4454-a00a-92f3d703dee3">
 finally I succeed!!
+
+<img width="500" alt="스크린샷 2024-04-21 오후 4 26 22" src="https://github.com/heunseoRyu/s3_crud/assets/120763372/a5386e22-f20e-4caa-87f3-006e864307e3">
+(IN s3)
+
+
+
