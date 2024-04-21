@@ -19,7 +19,7 @@ import java.io.InputStream;
 import java.time.Duration;
 
 public class S3Util {
-    public static final String BUCKET = "practicestorages";
+    public static final String BUCKET = "bucketName";
 
     public static String uploadFile(String fileName, InputStream inputStream)
             throws S3Exception, AwsServiceException, SdkClientException, IOException {
@@ -27,7 +27,7 @@ public class S3Util {
         AwsBasicCredentials credentials = AwsBasicCredentials.create("accessKeyId","secretAccessKey");
 
         S3Client client = S3Client.builder()
-                .region(Region.AP_NORTHEAST_1)
+                .region(Region.AP_NORTHEAST_2)
                 .credentialsProvider(StaticCredentialsProvider.create(credentials))
                 .build();
 
