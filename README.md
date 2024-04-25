@@ -7,8 +7,8 @@ First error
 ```
 Error uploading fileThe bucket you are attempting to access must be addressed using the specified endpoint.
 Please send all future requests to this endpoint. (Service: S3, Status Code: 301,
-Request ID: PDJ23KRE10EAD6XR,
-Extended Request ID: sBayTX7vJitZLm1hZq0n0vmHDsxnXVLAPGPMhaQ02WtBpnfchm3tbfEctYC8YGXEx+CsQ+lHgts=)
+Request ID: .,
+Extended Request ID: .
 ```
 (solution)
 In video, he used the ap-northest-1(Tokyo) but, 
